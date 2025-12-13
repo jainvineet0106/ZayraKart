@@ -1,0 +1,363 @@
+CRITICAL - 2025-10-19 07:39:49 --> ErrorException: Undefined variable $row
+[Method: GET, Route: admin/staffedit/U1Qx]
+in APPPATH\Views\backend\staffes\staffedit.php on line 76.
+ 1 APPPATH\Views\backend\staffes\staffedit.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 5 APPPATH\Controllers\Admin.php(114): view('backend/staffes/staffedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:06:54 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/staffedit/U1Qx]
+in APPPATH\Views\backend\staffes\staffedit.php on line 81.
+ 1 APPPATH\Views\backend\staffes\staffedit.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php', 81)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 5 APPPATH\Controllers\Admin.php(130): view('backend/staffes/staffedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:07:18 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/staffedit/U1Qx]
+in APPPATH\Views\backend\staffes\staffedit.php on line 81.
+ 1 APPPATH\Views\backend\staffes\staffedit.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php', 81)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 5 APPPATH\Controllers\Admin.php(130): view('backend/staffes/staffedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:07:28 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/staffedit/U1Qx]
+in APPPATH\Views\backend\staffes\staffedit.php on line 81.
+ 1 APPPATH\Views\backend\staffes\staffedit.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php', 81)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 5 APPPATH\Controllers\Admin.php(130): view('backend/staffes/staffedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:08:26 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/staffedit/U1Qx]
+in APPPATH\Views\backend\staffes\staffedit.php on line 82.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 4 APPPATH\Controllers\Admin.php(130): view('backend/staffes/staffedit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:09:43 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/staffedit/U1Qx]
+in APPPATH\Views\backend\staffes\staffedit.php on line 82.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 4 APPPATH\Controllers\Admin.php(130): view('backend/staffes/staffedit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:09:52 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/staffedit/U1Qx]
+in APPPATH\Views\backend\staffes\staffedit.php on line 82.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 4 APPPATH\Controllers\Admin.php(130): view('backend/staffes/staffedit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:09:53 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: admin/staffedit/U1Qx]
+in APPPATH\Views\backend\staffes\staffedit.php on line 82.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 4 APPPATH\Controllers\Admin.php(130): view('backend/staffes/staffedit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:29:28 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/staffedit/U1Qx]
+in APPPATH\Controllers\Admin.php on line 101.
+ 1 APPPATH\Controllers\Admin.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Controllers\\Admin.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:48:12 --> CodeIgniter\Database\Exceptions\DatabaseException: insertBatch() has no data.
+[Method: POST, Route: admin/staffedit/U1Qx]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1812.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2230): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 2 APPPATH\Models\CommonModel.php(22): CodeIgniter\Database\BaseBuilder->insertBatch([])
+ 3 APPPATH\Controllers\Admin.php(103): App\Models\CommonModel->insertBatchData('staffdocuments', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:48:33 --> CodeIgniter\Database\Exceptions\DatabaseException: insertBatch() has no data.
+[Method: POST, Route: admin/staffedit/U1Qx]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1812.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2230): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 2 APPPATH\Models\CommonModel.php(22): CodeIgniter\Database\BaseBuilder->insertBatch([])
+ 3 APPPATH\Controllers\Admin.php(103): App\Models\CommonModel->insertBatchData('staffdocuments', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:48:52 --> CodeIgniter\Database\Exceptions\DatabaseException: insertBatch() has no data.
+[Method: POST, Route: admin/staffedit/U1Qx]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1812.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2230): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 2 APPPATH\Models\CommonModel.php(22): CodeIgniter\Database\BaseBuilder->insertBatch([])
+ 3 APPPATH\Controllers\Admin.php(102): App\Models\CommonModel->insertBatchData('staffdocuments', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 08:48:56 --> CodeIgniter\Database\Exceptions\DatabaseException: insertBatch() has no data.
+[Method: POST, Route: admin/staffedit/U1Qx]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1812.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2230): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 2 APPPATH\Models\CommonModel.php(22): CodeIgniter\Database\BaseBuilder->insertBatch([])
+ 3 APPPATH\Controllers\Admin.php(102): App\Models\CommonModel->insertBatchData('staffdocuments', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-19 09:35:37 --> mysqli_sql_exception: Unknown column 'document' in 'field list' in C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `staff` ...', 0)
+#1 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `staff` ...')
+#2 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `staff` ...')
+#3 C:\xampp\htdocs\ZayraKart\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `staff` ...', Array, false)
+#4 C:\xampp\htdocs\ZayraKart\app\Models\CommonModel.php(27): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\ZayraKart\app\Controllers\Admin.php(314): App\Models\CommonModel->updateData('staff', Array, Array)
+#6 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(933): App\Controllers\Admin->deleteDocu('13', 'staffdocuments', 'ST1')
+#7 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ZayraKart\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ZayraKart\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ZayraKart\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-10-19 09:35:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'document' in 'field list'
+[Method: GET, Route: admin/deleteDocu/13/staffdocuments/ST1]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `staff` SET `document` = :document:
+WHERE `staffid` = :staffid:', [...], false)
+ 2 APPPATH\Models\CommonModel.php(27): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Admin.php(314): App\Models\CommonModel->updateData('staff', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->deleteDocu('13', 'staffdocuments', 'ST1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 09:35:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'document' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `staff` SET `document` = \'2#@12\'
+WHERE `staffid` = \'ST1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `staff` SET `document` = \'2#@12\'
+WHERE `staffid` = \'ST1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `staff` SET `document` = :document:
+WHERE `staffid` = :staffid:', [...], false)
+ 4 APPPATH\Models\CommonModel.php(27): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Admin.php(314): App\Models\CommonModel->updateData('staff', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->deleteDocu('13', 'staffdocuments', 'ST1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 09:35:37 --> [Caused by] mysqli_sql_exception: Unknown column 'document' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `staff` SET `document` = \'2#@12\'
+WHERE `staffid` = \'ST1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `staff` SET `document` = \'2#@12\'
+WHERE `staffid` = \'ST1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `staff` SET `document` = \'2#@12\'
+WHERE `staffid` = \'ST1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `staff` SET `document` = :document:
+WHERE `staffid` = :staffid:', [...], false)
+ 5 APPPATH\Models\CommonModel.php(27): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Admin.php(314): App\Models\CommonModel->updateData('staff', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->deleteDocu('13', 'staffdocuments', 'ST1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 09:45:26 --> ErrorException: Undefined variable $staffdocuments
+[Method: GET, Route: admin/staffdetails/U1Qx]
+in APPPATH\Views\backend\staffes\staffdetails.php on line 93.
+ 1 APPPATH\Views\backend\staffes\staffdetails.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staffdocuments', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php', 93)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('backend/staffes/staffdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffdetails('ST1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 10:41:56 --> ErrorException: Undefined variable $staffid
+[Method: GET, Route: admin/staffadd]
+in APPPATH\Views\backend\staffes\staffadd.php on line 21.
+ 1 APPPATH\Views\backend\staffes\staffadd.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staffid', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffadd.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffadd.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffadd', [], true)
+ 5 APPPATH\Controllers\Admin.php(140): view('backend/staffes/staffadd', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffadd()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 10:51:42 --> ErrorException: Undefined variable $staffid
+[Method: GET, Route: admin/staffdetails/U1Qy]
+in APPPATH\Views\backend\staffes\staffdetails.php on line 46.
+ 1 APPPATH\Views\backend\staffes\staffdetails.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staffid', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('backend/staffes/staffdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffdetails('ST2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 10:52:36 --> ErrorException: Undefined variable $staffid
+[Method: GET, Route: admin/staffdetails/U1Qy]
+in APPPATH\Views\backend\staffes\staffdetails.php on line 46.
+ 1 APPPATH\Views\backend\staffes\staffdetails.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staffid', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('backend/staffes/staffdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffdetails('ST2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 10:53:34 --> ErrorException: Undefined variable $staffid
+[Method: GET, Route: admin/staffdetails/U1Qy]
+in APPPATH\Views\backend\staffes\staffdetails.php on line 46.
+ 1 APPPATH\Views\backend\staffes\staffdetails.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staffid', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('backend/staffes/staffdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffdetails('ST2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 13:35:54 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: admin/order]
+in APPPATH\Views\backend\include\sidebar.php on line 18.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order', [], true)
+ 4 APPPATH\Controllers\Admin.php(466): view('backend/order', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 13:48:55 --> ErrorException: Undefined array key "employees_id"
+[Method: GET, Route: admin/staffdetails/U1Qy]
+in APPPATH\Views\backend\staffes\staffdetails.php on line 191.
+ 1 APPPATH\Views\backend\staffes\staffdetails.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employees_id"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php', 191)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(60): view('backend/staffes/staffdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffdetails('ST2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 14:16:55 --> ErrorException: Undefined variable $staff
+[Method: GET, Route: admin/staffcard/U1Qy]
+in APPPATH\Views\backend\pdf\staffcard.php on line 129.
+ 1 APPPATH\Views\backend\pdf\staffcard.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\pdf\\staffcard.php', 129)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\pdf\\staffcard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/pdf/staffcard', [], true)
+ 5 APPPATH\Controllers\Admin.php(268): view('backend/pdf/staffcard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffcard('ST2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 14:17:56 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: admin/staffcard/%3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('admin/staffcard/<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('admin/staffcard/<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-19 15:18:57 --> ErrorException: Undefined variable $companyname
+[Method: GET, Route: admin/staffcard/U1Qy]
+in APPPATH\Views\backend\pdf\staffcard.php on line 125.
+ 1 APPPATH\Views\backend\pdf\staffcard.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $companyname', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\pdf\\staffcard.php', 125)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\pdf\\staffcard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/pdf/staffcard', [], true)
+ 5 APPPATH\Controllers\Admin.php(264): view('backend/pdf/staffcard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffcard('ST2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

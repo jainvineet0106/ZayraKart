@@ -1,0 +1,168 @@
+CRITICAL - 2025-10-24 14:02:58 --> ErrorException: Undefined array key "address"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 203.
+ 1 APPPATH\Views\staff\dashboard.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "address"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 203)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:05:01 --> ErrorException: Undefined array key "buyproductid"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 209.
+ 1 APPPATH\Views\staff\dashboard.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "buyproductid"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 209)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:05:41 --> ErrorException: Undefined array key "total"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 218.
+ 1 APPPATH\Views\staff\dashboard.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 218)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:06:45 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 219.
+ 1 APPPATH\Views\staff\dashboard.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 219)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:06:47 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 219.
+ 1 APPPATH\Views\staff\dashboard.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 219)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:06:49 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 219.
+ 1 APPPATH\Views\staff\dashboard.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 219)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:07:19 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 219.
+ 1 APPPATH\Views\staff\dashboard.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 219)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:09:35 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 266.
+ 1 APPPATH\Views\staff\dashboard.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 266)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:13:08 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 221.
+ 1 APPPATH\Views\staff\dashboard.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 221)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:13:09 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 221.
+ 1 APPPATH\Views\staff\dashboard.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 221)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:13:09 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 221.
+ 1 APPPATH\Views\staff\dashboard.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 221)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-24 14:13:10 --> ErrorException: Undefined array key "paystatus"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 221.
+ 1 APPPATH\Views\staff\dashboard.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paystatus"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 221)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(93): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

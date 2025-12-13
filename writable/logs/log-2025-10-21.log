@@ -1,0 +1,123 @@
+CRITICAL - 2025-10-21 08:29:30 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: admin/staffdetails/U1Qz]
+in APPPATH\Views\backend\staffes\staffdetails.php on line 11.
+ 1 APPPATH\Views\backend\staffes\staffdetails.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(67): view('backend/staffes/staffdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffdetails('ST3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-21 08:29:55 --> ErrorException: Undefined variable $staffusername
+[Method: GET, Route: admin/staffdetails/U1Qz]
+in APPPATH\Views\backend\staffes\staffdetails.php on line 60.
+ 1 APPPATH\Views\backend\staffes\staffdetails.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staffusername', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffdetails.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffdetails', [], true)
+ 5 APPPATH\Controllers\Admin.php(67): view('backend/staffes/staffdetails', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffdetails('ST3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-21 08:31:31 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: admin/staffedit/U1Qz]
+in APPPATH\Views\backend\staffes\staffedit.php on line 8.
+ 1 APPPATH\Views\backend\staffes\staffedit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\staffes\\staffedit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/staffes/staffedit', [], true)
+ 5 APPPATH\Controllers\Admin.php(229): view('backend/staffes/staffedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffedit('ST3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-21 08:32:45 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: admin/staffcard/U1Qz]
+in APPPATH\Views\backend\pdf\staffcard.php on line 8.
+ 1 APPPATH\Views\backend\pdf\staffcard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\pdf\\staffcard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\pdf\\staffcard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/pdf/staffcard', [], true)
+ 5 APPPATH\Controllers\Admin.php(243): view('backend/pdf/staffcard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->staffcard('ST3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-21 08:41:02 --> ErrorException: Undefined variable $staff
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 111.
+ 1 APPPATH\Views\staff\dashboard.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 111)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(82): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-21 08:42:43 --> Error: Call to undefined function App\Controllers\get()
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Controllers\Staff.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-21 08:44:44 --> ErrorException: Undefined variable $staff
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 111.
+ 1 APPPATH\Views\staff\dashboard.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 111)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(85): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-21 08:45:35 --> ErrorException: Undefined array key "role"
+[Method: GET, Route: staff/dashboard]
+in APPPATH\Views\staff\dashboard.php on line 118.
+ 1 APPPATH\Views\staff\dashboard.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\staff\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('staff/dashboard', [], true)
+ 5 APPPATH\Controllers\Staff.php(85): view('staff/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-21 09:24:01 --> ErrorException: include(user.php): Failed to open stream: No such file or directory
+[Method: GET, Route: Profile/returnitem]
+in APPPATH\Views\frontend\Profile\include\head.php on line 88.
+ 1 APPPATH\Views\frontend\Profile\include\head.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(user.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\include\\head.php', 88)
+ 2 APPPATH\Views\frontend\Profile\include\head.php(88): include()
+ 3 APPPATH\Views\frontend\Profile\returnitem.php(210): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\include\\head.php')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\returnitem.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/returnitem', [], true)
+ 7 APPPATH\Controllers\Home.php(226): view('frontend/Profile/returnitem')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->returnitem()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

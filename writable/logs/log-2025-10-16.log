@@ -1,0 +1,43 @@
+CRITICAL - 2025-10-16 14:51:19 --> ErrorException: require_once(C:\xampp\htdocs\ZayraKart\app\Libraries/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: admin/invoice]
+in APPPATH\Controllers\invoice.php on line 12.
+ 1 APPPATH\Controllers\invoice.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\ZayraKart\\app\\Libraries/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Controllers\\invoice.php', 12)
+ 2 APPPATH\Controllers\invoice.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Invoice->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoice))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-16 14:52:27 --> ErrorException: Declaration of Psr\Log\AbstractLogger::emergency($message, array $context = []) must be compatible with Psr\Log\LoggerInterface::emergency(Stringable|string $message, array $context = []): void
+[Method: GET, Route: admin/invoice]
+in APPPATH\Libraries\vendor\psr\log\Psr\Log\AbstractLogger.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-10-16 14:52:49 --> ErrorException: Declaration of Psr\Log\AbstractLogger::emergency($message, array $context = []) must be compatible with Psr\Log\LoggerInterface::emergency(Stringable|string $message, array $context = []): void
+[Method: GET, Route: admin/invoice]
+in APPPATH\Libraries\vendor\psr\log\Psr\Log\AbstractLogger.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-10-16 14:58:46 --> ErrorException: Declaration of Psr\Log\AbstractLogger::emergency($message, array $context = []) must be compatible with Psr\Log\LoggerInterface::emergency(Stringable|string $message, array $context = []): void
+[Method: GET, Route: admin/invoice]
+in APPPATH\Libraries\vendor\psr\log\Psr\Log\AbstractLogger.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-10-16 14:58:54 --> ErrorException: Declaration of Psr\Log\AbstractLogger::emergency($message, array $context = []) must be compatible with Psr\Log\LoggerInterface::emergency(Stringable|string $message, array $context = []): void
+[Method: GET, Route: admin/invoice]
+in APPPATH\Libraries\vendor\psr\log\Psr\Log\AbstractLogger.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-10-16 15:04:14 --> ErrorException: Declaration of Psr\Log\AbstractLogger::emergency($message, array $context = []) must be compatible with Psr\Log\LoggerInterface::emergency(Stringable|string $message, array $context = []): void
+[Method: GET, Route: admin/invoice]
+in APPPATH\Libraries\vendor\psr\log\Psr\Log\AbstractLogger.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-10-16 15:04:15 --> ErrorException: Declaration of Psr\Log\AbstractLogger::emergency($message, array $context = []) must be compatible with Psr\Log\LoggerInterface::emergency(Stringable|string $message, array $context = []): void
+[Method: GET, Route: admin/invoice]
+in APPPATH\Libraries\vendor\psr\log\Psr\Log\AbstractLogger.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-10-16 15:04:15 --> ErrorException: Declaration of Psr\Log\AbstractLogger::emergency($message, array $context = []) must be compatible with Psr\Log\LoggerInterface::emergency(Stringable|string $message, array $context = []): void
+[Method: GET, Route: admin/invoice]
+in APPPATH\Libraries\vendor\psr\log\Psr\Log\AbstractLogger.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-10-16 15:04:15 --> ErrorException: Declaration of Psr\Log\AbstractLogger::emergency($message, array $context = []) must be compatible with Psr\Log\LoggerInterface::emergency(Stringable|string $message, array $context = []): void
+[Method: GET, Route: admin/invoice]
+in APPPATH\Libraries\vendor\psr\log\Psr\Log\AbstractLogger.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

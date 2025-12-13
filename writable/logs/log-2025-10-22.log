@@ -1,0 +1,356 @@
+CRITICAL - 2025-10-22 08:13:37 --> ErrorException: Undefined variable $orderid
+[Method: GET, Route: Profile/returnitem/T1JEMg]
+in APPPATH\Views\frontend\Profile\returnitem.php on line 292.
+ 1 APPPATH\Views\frontend\Profile\returnitem.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orderid', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\returnitem.php', 292)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\returnitem.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/returnitem', [], true)
+ 5 APPPATH\Controllers\Home.php(270): view('frontend/Profile/returnitem', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMg')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-22 08:16:31 --> mysqli_sql_exception: Column 'orderid' cannot be null in C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\ZayraKart\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\ZayraKart\app\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ZayraKart\app\Controllers\Home.php(258): App\Models\CommonModel->insertData('returnrequests', Array)
+#6 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMQ')
+#7 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ZayraKart\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ZayraKart\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ZayraKart\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-10-22 08:16:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'orderid' cannot be null
+[Method: POST, Route: Profile/returnitem/T1JEMQ]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (:orderid:, :returnproductids:, :upiid:, :reason:, :amount:, :useraddress:, :requestdate:)', [...], false)
+ 2 APPPATH\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(258): App\Models\CommonModel->insertData('returnrequests', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMQ')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 08:16:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'orderid' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'9109859319@ybl\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'9109859319@ybl\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (:orderid:, :returnproductids:, :upiid:, :reason:, :amount:, :useraddress:, :requestdate:)', [...], false)
+ 4 APPPATH\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(258): App\Models\CommonModel->insertData('returnrequests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMQ')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 08:16:31 --> [Caused by] mysqli_sql_exception: Column 'orderid' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'9109859319@ybl\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'9109859319@ybl\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'9109859319@ybl\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (:orderid:, :returnproductids:, :upiid:, :reason:, :amount:, :useraddress:, :requestdate:)', [...], false)
+ 5 APPPATH\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(258): App\Models\CommonModel->insertData('returnrequests', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMQ')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-22 08:36:30 --> mysqli_sql_exception: Column 'orderid' cannot be null in C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\ZayraKart\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\ZayraKart\app\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ZayraKart\app\Controllers\Home.php(259): App\Models\CommonModel->insertData('returnrequests', Array)
+#6 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMQ')
+#7 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ZayraKart\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ZayraKart\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ZayraKart\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-10-22 08:36:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'orderid' cannot be null
+[Method: POST, Route: Profile/returnitem/T1JEMQ]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (:orderid:, :returnproductids:, :upiid:, :reason:, :amount:, :useraddress:, :requestdate:)', [...], false)
+ 2 APPPATH\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(259): App\Models\CommonModel->insertData('returnrequests', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMQ')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 08:36:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'orderid' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'vdf\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'vdf\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (:orderid:, :returnproductids:, :upiid:, :reason:, :amount:, :useraddress:, :requestdate:)', [...], false)
+ 4 APPPATH\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(259): App\Models\CommonModel->insertData('returnrequests', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMQ')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 08:36:30 --> [Caused by] mysqli_sql_exception: Column 'orderid' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'vdf\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'vdf\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (NULL, \'\', \'vdf\', \'Product damaged/defective\', NULL, NULL, \'22 Oct, 2025\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `returnrequests` (`orderid`, `returnproductids`, `upiid`, `reason`, `amount`, `useraddress`, `requestdate`) VALUES (:orderid:, :returnproductids:, :upiid:, :reason:, :amount:, :useraddress:, :requestdate:)', [...], false)
+ 5 APPPATH\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(259): App\Models\CommonModel->insertData('returnrequests', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->returnitem('T1JEMQ')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-22 09:57:05 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ZayraKart\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ZayraKart\app\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ZayraKart\app\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', Array)
+#6 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+#7 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ZayraKart\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ZayraKart\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ZayraKart\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-10-22 09:57:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+[Method: GET, Route: staff/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 09:57:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 4 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 09:57:06 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 5 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-22 09:57:07 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ZayraKart\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ZayraKart\app\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ZayraKart\app\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', Array)
+#6 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+#7 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ZayraKart\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ZayraKart\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ZayraKart\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-10-22 09:57:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+[Method: GET, Route: staff/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 09:57:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 4 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 09:57:07 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 5 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-22 09:57:08 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ZayraKart\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ZayraKart\app\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ZayraKart\app\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', Array)
+#6 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+#7 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#8 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ZayraKart\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ZayraKart\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ZayraKart\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-10-22 09:57:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+[Method: GET, Route: staff/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 2 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 09:57:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 4 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-22 09:57:08 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `staff`
+WHERE `staffid` = \'ST2\'
+AND `status` = \'Shipped\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+WHERE `staffid` = :staffid:
+AND `status` = :status:', [...], false)
+ 5 APPPATH\Models\CommonModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Staff.php(65): App\Models\CommonModel->getAllData('staff', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Staff->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

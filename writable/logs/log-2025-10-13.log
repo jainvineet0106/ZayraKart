@@ -1,0 +1,93 @@
+CRITICAL - 2025-10-13 10:44:30 --> ErrorException: Undefined variable $amount
+[Method: POST, Route: buy/Mw/MQ/buy]
+in APPPATH\Views\frontend\upi\index.php on line 13.
+ 1 APPPATH\Views\frontend\upi\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amount', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/upi/index', [], true)
+ 5 APPPATH\Controllers\Home.php(346): view('frontend/upi/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'buy')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-13 10:45:01 --> ErrorException: Undefined variable $amount
+[Method: POST, Route: buy/Mw/MQ/buy]
+in APPPATH\Views\frontend\upi\index.php on line 13.
+ 1 APPPATH\Views\frontend\upi\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amount', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/upi/index', [], true)
+ 5 APPPATH\Controllers\Home.php(346): view('frontend/upi/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'buy')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-13 10:45:08 --> ErrorException: Undefined variable $razorpayKey
+[Method: POST, Route: buy/Mw/MQ/buy]
+in APPPATH\Views\frontend\upi\index.php on line 20.
+ 1 APPPATH\Views\frontend\upi\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $razorpayKey', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/upi/index', [], true)
+ 5 APPPATH\Controllers\Home.php(346): view('frontend/upi/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'buy')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-13 11:00:13 --> ErrorException: Undefined variable $buydata
+[Method: POST, Route: buy/Mw/MQ/buy]
+in APPPATH\Views\frontend\upi\index.php on line 33.
+ 1 APPPATH\Views\frontend\upi\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buydata', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/upi/index', [], true)
+ 5 APPPATH\Controllers\Home.php(347): view('frontend/upi/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'buy')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-13 12:10:44 --> ErrorException: require_once(C:\xampp\htdocs\ZayraKart\app\ThirdParty/phpqrcode/qrlib.php): Failed to open stream: No such file or directory
+[Method: POST, Route: buy/Mw/MQ/buy]
+in APPPATH\Controllers\Home.php on line 364.
+ 1 APPPATH\Controllers\Home.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\ZayraKart\\app\\ThirdParty/phpqrcode/qrlib.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Controllers\\Home.php', 364)
+ 2 APPPATH\Controllers\Home.php(364): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'buy')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-13 12:11:21 --> ErrorException: include(C:\xampp\htdocs\ZayraKart\app\ThirdParty\phpqrcode\qrconst.php): Failed to open stream: No such file or directory
+[Method: POST, Route: buy/Mw/MQ/buy]
+in APPPATH\ThirdParty\phpqrcode\qrlib.php on line 32.
+ 1 APPPATH\ThirdParty\phpqrcode\qrlib.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\ZayraKart\\app\\ThirdParty\\phpqrcode\\qrconst.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ZayraKart\\app\\ThirdParty\\phpqrcode\\qrlib.php', 32)
+ 2 APPPATH\ThirdParty\phpqrcode\qrlib.php(32): include()
+ 3 APPPATH\Controllers\Home.php(364): require_once('C:\\xampp\\htdocs\\ZayraKart\\app\\ThirdParty\\phpqrcode\\qrlib.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'buy')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-13 12:17:38 --> ErrorException: Undefined variable $qrUrl
+[Method: POST, Route: buy/Mw/MQ/buy]
+in APPPATH\Views\frontend\upi\index.php on line 48.
+ 1 APPPATH\Views\frontend\upi\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qrUrl', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\upi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/upi/index', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('frontend/upi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'buy')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

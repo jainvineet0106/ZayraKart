@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+
+    .sidebar {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 0;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .content_slide {
+        transform: translateX(200px);
+    }
+
+    #toggle-btn {
+        display: block;
+    }
+
+    .sidebar-hidden {
+        transform: translateX(-100%);
+    }
+}

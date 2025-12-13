@@ -1,0 +1,473 @@
+CRITICAL - 2025-10-12 05:45:17 --> ErrorException: Undefined array key "title"
+[Method: GET, Route: admin/order2]
+in APPPATH\Views\backend\order2.php on line 295.
+ 1 APPPATH\Views\backend\order2.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php', 295)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order2', [], true)
+ 5 APPPATH\Controllers\Admin.php(241): view('backend/order2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 06:00:09 --> ErrorException: Undefined array key "qantity"
+[Method: GET, Route: admin/order2]
+in APPPATH\Views\backend\order2.php on line 293.
+ 1 APPPATH\Views\backend\order2.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qantity"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php', 293)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order2', [], true)
+ 5 APPPATH\Controllers\Admin.php(241): view('backend/order2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 09:51:13 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: admin/order2]
+in APPPATH\Views\backend\order2.php on line 97.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order2', [], true)
+ 4 APPPATH\Controllers\Admin.php(240): view('backend/order2')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order2()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 09:51:13 --> [Caused by] ErrorException: Undefined variable $orders
+in APPPATH\Views\backend\order2.php on line 97.
+ 1 APPPATH\Views\backend\order2.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orders', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order2', [], true)
+ 5 APPPATH\Controllers\Admin.php(240): view('backend/order2')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 09:51:22 --> ErrorException: Undefined variable $buyproducts
+[Method: GET, Route: admin/order2]
+in APPPATH\Views\backend\order2.php on line 185.
+ 1 APPPATH\Views\backend\order2.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buyproducts', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php', 185)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order2', [], true)
+ 5 APPPATH\Controllers\Admin.php(240): view('backend/order2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 09:51:29 --> ErrorException: Undefined variable $products
+[Method: GET, Route: admin/order2]
+in APPPATH\Views\backend\order2.php on line 187.
+ 1 APPPATH\Views\backend\order2.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php', 187)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order2', [], true)
+ 5 APPPATH\Controllers\Admin.php(240): view('backend/order2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 09:51:39 --> ErrorException: Undefined variable $useraddress
+[Method: GET, Route: admin/order2]
+in APPPATH\Views\backend\order2.php on line 206.
+ 1 APPPATH\Views\backend\order2.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $useraddress', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php', 206)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order2', [], true)
+ 5 APPPATH\Controllers\Admin.php(240): view('backend/order2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:02:35 --> ErrorException: Undefined variable $o
+[Method: GET, Route: admin/order2]
+in APPPATH\Views\backend\order2.php on line 302.
+ 1 APPPATH\Views\backend\order2.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $o', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php', 302)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order2.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order2', [], true)
+ 5 APPPATH\Controllers\Admin.php(240): view('backend/order2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order2()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:16:52 --> ErrorException: Undefined array key "order_id"
+[Method: GET, Route: Profile]
+in APPPATH\Views\frontend\Profile\index.php on line 103.
+ 1 APPPATH\Views\frontend\Profile\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_id"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/index', [], true)
+ 5 APPPATH\Controllers\Home.php(164): view('frontend/Profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:17:26 --> ErrorException: Undefined array key "payment"
+[Method: GET, Route: Profile]
+in APPPATH\Views\frontend\Profile\index.php on line 115.
+ 1 APPPATH\Views\frontend\Profile\index.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "payment"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/index', [], true)
+ 5 APPPATH\Controllers\Home.php(164): view('frontend/Profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:21:24 --> ErrorException: Undefined array key "image"
+[Method: GET, Route: Profile]
+in APPPATH\Views\frontend\Profile\index.php on line 107.
+ 1 APPPATH\Views\frontend\Profile\index.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/index', [], true)
+ 5 APPPATH\Controllers\Home.php(169): view('frontend/Profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:21:39 --> ErrorException: Undefined array key ""
+[Method: GET, Route: Profile]
+in APPPATH\Views\frontend\Profile\index.php on line 107.
+ 1 APPPATH\Views\frontend\Profile\index.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/index', [], true)
+ 5 APPPATH\Controllers\Home.php(169): view('frontend/Profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:21:40 --> ErrorException: Undefined array key ""
+[Method: GET, Route: Profile]
+in APPPATH\Views\frontend\Profile\index.php on line 107.
+ 1 APPPATH\Views\frontend\Profile\index.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/index', [], true)
+ 5 APPPATH\Controllers\Home.php(169): view('frontend/Profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-10-12 10:26:19 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ZayraKart\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ZayraKart\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ZayraKart\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ZayraKart\app\Models\CommonModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ZayraKart\app\Controllers\Home.php(149): App\Models\CommonModel->getAllData('products', Array)
+#6 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(933): App\Controllers\Home->Profile()
+#7 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ZayraKart\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ZayraKart\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ZayraKart\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\ZayraKart\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-10-12 10:26:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: GET, Route: Profile]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\CommonModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(149): App\Models\CommonModel->getAllData('products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:26:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `products`
+WHERE `id` = (\'3\',\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `products`
+WHERE `id` = (\'3\',\'4\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH\Models\CommonModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(149): App\Models\CommonModel->getAllData('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:26:19 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `products`
+WHERE `id` = (\'3\',\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `products`
+WHERE `id` = (\'3\',\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `products`
+WHERE `id` = (\'3\',\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\CommonModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(149): App\Models\CommonModel->getAllData('products', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:33:23 --> ErrorException: Undefined variable $buyproducts
+[Method: GET, Route: Profile]
+in APPPATH\Views\frontend\Profile\index.php on line 127.
+ 1 APPPATH\Views\frontend\Profile\index.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $buyproducts', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php', 127)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/index', [], true)
+ 5 APPPATH\Controllers\Home.php(166): view('frontend/Profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:34:12 --> ErrorException: Undefined variable $useraddress
+[Method: GET, Route: Profile]
+in APPPATH\Views\frontend\Profile\index.php on line 148.
+ 1 APPPATH\Views\frontend\Profile\index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $useraddress', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php', 148)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/index', [], true)
+ 5 APPPATH\Controllers\Home.php(167): view('frontend/Profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 10:34:13 --> ErrorException: Undefined variable $useraddress
+[Method: GET, Route: Profile]
+in APPPATH\Views\frontend\Profile\index.php on line 148.
+ 1 APPPATH\Views\frontend\Profile\index.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $useraddress', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php', 148)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\Profile\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/Profile/index', [], true)
+ 5 APPPATH\Controllers\Home.php(167): view('frontend/Profile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->Profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 11:40:54 --> ErrorException: Undefined variable $data
+[Method: GET, Route: buy/Mw/MQ/cart]
+in APPPATH\Views\frontend\buy.php on line 56.
+ 1 APPPATH\Views\frontend\buy.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(352): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 11:41:16 --> ErrorException: Undefined variable $quantity
+[Method: GET, Route: buy/Mw/MQ/cart]
+in APPPATH\Views\frontend\buy.php on line 84.
+ 1 APPPATH\Views\frontend\buy.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $quantity', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(352): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '1', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 11:41:34 --> ErrorException: Undefined variable $quantity
+[Method: GET, Route: buy/MQ/MQ/cart]
+in APPPATH\Views\frontend\buy.php on line 84.
+ 1 APPPATH\Views\frontend\buy.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $quantity', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(352): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('1', '1', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 11:41:51 --> ErrorException: Undefined variable $quantity
+[Method: GET, Route: buy/MQ/MQ/cart]
+in APPPATH\Views\frontend\buy.php on line 84.
+ 1 APPPATH\Views\frontend\buy.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $quantity', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(352): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('1', '1', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 11:43:29 --> ErrorException: Undefined variable $quantity
+[Method: GET, Route: buy/MQ/MQ/cart]
+in APPPATH\Views\frontend\buy.php on line 59.
+ 1 APPPATH\Views\frontend\buy.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $quantity', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(349): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('1', '1', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 11:47:07 --> ErrorException: Undefined variable $quantity
+[Method: GET, Route: buy/MQ/MQ/cart]
+in APPPATH\Views\frontend\buy.php on line 59.
+ 1 APPPATH\Views\frontend\buy.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $quantity', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(351): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('1', '1', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 11:47:08 --> ErrorException: Undefined variable $quantity
+[Method: GET, Route: buy/MQ/MQ/cart]
+in APPPATH\Views\frontend\buy.php on line 59.
+ 1 APPPATH\Views\frontend\buy.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $quantity', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(351): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('1', '1', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 11:47:08 --> ErrorException: Undefined variable $quantity
+[Method: GET, Route: buy/MQ/MQ/cart]
+in APPPATH\Views\frontend\buy.php on line 59.
+ 1 APPPATH\Views\frontend\buy.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $quantity', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 59)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(351): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('1', '1', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 12:02:58 --> ErrorException: Undefined variable $qty
+[Method: GET, Route: buy/Mw/Mg/buy]
+in APPPATH\Views\frontend\buy.php on line 56.
+ 1 APPPATH\Views\frontend\buy.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qty', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(352): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '2', 'buy')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 12:06:25 --> ErrorException: Undefined variable $total_qty
+[Method: GET, Route: buy/Mw/Mg/cart]
+in APPPATH\Views\frontend\buy.php on line 61.
+ 1 APPPATH\Views\frontend\buy.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_qty', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php', 61)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\buy.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/buy', [], true)
+ 5 APPPATH\Controllers\Home.php(351): view('frontend/buy', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->buy('3', '2', 'cart')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 14:37:44 --> ErrorException: Undefined variable $product
+[Method: GET, Route: placeorder/MQ]
+in APPPATH\Views\frontend\placeorder.php on line 90.
+ 1 APPPATH\Views\frontend\placeorder.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\placeorder.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\placeorder.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/placeorder', [], true)
+ 5 APPPATH\Controllers\Home.php(438): view('frontend/placeorder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->placeorder('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 14:44:19 --> ErrorException: Undefined variable $product
+[Method: GET, Route: placeorder/MQ]
+in APPPATH\Views\frontend\placeorder.php on line 213.
+ 1 APPPATH\Views\frontend\placeorder.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\placeorder.php', 213)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\frontend\\placeorder.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('frontend/placeorder', [], true)
+ 5 APPPATH\Controllers\Home.php(448): view('frontend/placeorder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->placeorder('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-12 14:55:59 --> TypeError: CodeIgniter\Database\BaseBuilder::setBind(): Argument #1 ($key) must be of type string, int given, called in C:\xampp\htdocs\ZayraKart\system\Database\BaseBuilder.php on line 1575
+[Method: POST, Route: placeorder/MQ]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3529.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1575): CodeIgniter\Database\BaseBuilder->setBind(0, [...], true)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2324): CodeIgniter\Database\BaseBuilder->set([...], '', true)
+ 3 APPPATH\Models\CommonModel.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Home.php(416): App\Models\CommonModel->insertData('buyproducts', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->placeorder('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

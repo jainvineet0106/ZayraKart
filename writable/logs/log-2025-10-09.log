@@ -1,0 +1,84 @@
+CRITICAL - 2025-10-09 11:09:39 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: admin/order]
+in APPPATH\Views\backend\order.php on line 70.
+ 1 APPPATH\Views\backend\order.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php', 70)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order', [], true)
+ 5 APPPATH\Controllers\Admin.php(228): view('backend/order')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 11:10:22 --> ErrorException: Undefined array key "order_id"
+[Method: GET, Route: admin/order]
+in APPPATH\Views\backend\order.php on line 74.
+ 1 APPPATH\Views\backend\order.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_id"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php', 74)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order', [], true)
+ 5 APPPATH\Controllers\Admin.php(228): view('backend/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 11:10:26 --> ErrorException: Undefined array key "product_id"
+[Method: GET, Route: admin/order]
+in APPPATH\Views\backend\order.php on line 75.
+ 1 APPPATH\Views\backend\order.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php', 75)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order', [], true)
+ 5 APPPATH\Controllers\Admin.php(228): view('backend/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 11:10:41 --> ErrorException: Undefined array key "customer_name"
+[Method: GET, Route: admin/order]
+in APPPATH\Views\backend\order.php on line 76.
+ 1 APPPATH\Views\backend\order.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customer_name"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order', [], true)
+ 5 APPPATH\Controllers\Admin.php(228): view('backend/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 11:10:55 --> ErrorException: Undefined array key "date"
+[Method: GET, Route: admin/order]
+in APPPATH\Views\backend\order.php on line 77.
+ 1 APPPATH\Views\backend\order.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order', [], true)
+ 5 APPPATH\Controllers\Admin.php(228): view('backend/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-10-09 11:11:34 --> ErrorException: Undefined array key "deliveredat"
+[Method: GET, Route: admin/order]
+in APPPATH\Views\backend\order.php on line 78.
+ 1 APPPATH\Views\backend\order.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deliveredat"', 'C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php', 78)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ZayraKart\\app\\Views\\backend\\order.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('backend/order', [], true)
+ 5 APPPATH\Controllers\Admin.php(228): view('backend/order', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->order()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

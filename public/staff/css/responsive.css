@@ -1,0 +1,263 @@
+@media only screen and (min-width: 1200px) and (max-width: 1880px)  { 
+    .shop-item.shop-list .shop-content {
+        margin-top: 40px;
+    }
+    .shop-item.shop-list .shop-content p {
+        margin-bottom: 10px
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+    .shop-item.shop-list .shop-content {
+        margin-top: 10px;
+    }
+    .shop-item.shop-list .shop-content p {
+        margin-bottom: 10px
+    }
+
+    .team-info .agent-details {
+        top: 82%;
+    }
+
+    .team-info .single-agent .agent-details ul li a {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 1191px) {
+
+	.team-info .single-agent .agent-details a {
+	    font-size: 14px;
+	    width: 42px;
+	    height: 42px;
+	    line-height: 42px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .topber .container-fluid {
+        padding: 0;
+    } 
+    .shop-item.shop-list .shop-content {
+        margin-top: 10px;
+    }
+    
+    .display-n-768 {
+        display: none !important;
+    }
+
+    .btn-shop.mt-3 {
+        margin-top: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+	body {
+		overflow-x: hidden;
+	}
+
+    .flexslider {
+        height: 490px;
+    }
+
+	.blog-box {
+		margin-bottom: 30px;
+	}
+
+	.agent-box {
+		display: block;
+	}
+
+	.d-flex {
+		display: block !important;
+	}
+
+    .div-hafe .layer-overlay::before {
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 420px) and (max-width: 767px) { 
+    .shop-item.shop-list .shop-content {
+        margin-top: 10px;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+    .flexslider {
+        height: 325px;
+    }
+
+    .topber .col-12 {
+        padding: 0;
+    }
+
+    .topbar span {
+        margin: 0;
+    }
+
+    .topber .container-fluid {
+        padding: 0;
+    }
+
+    .topber::after {
+        display: none;
+    }
+
+	.flex {
+		display: block !important;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.r-p {
+		padding: 0;
+	}
+
+	.container {
+		max-width: 100%;
+		overflow-x: hidden;
+        padding: 80px 0 50px;
+	}
+
+    .display-n-767 {
+        display: none !important;
+    }
+    .topbar .registration {
+        margin-left: -30px;
+    }
+    .topbar .registration,
+    .topbar .top-social {
+        margin-top: 10px;
+    }
+    .topbar,
+    .topbar .registration a  {
+        float: none;
+        text-align: center;
+    }
+
+	.center767 {
+        float: none !important;
+        text-align: center !important;
+    }
+
+    .left767 {
+    	float: none !important;
+        text-align: left !important;
+    }
+
+    .location-map-box {
+    	display: none;
+    }
+
+    .div-hafe .layer-overlay::after {
+        left: 0%;
+        width: 0%;
+        height: 100%;
+    }
+
+    .slogan-area .btn {
+        margin-top: 20px;
+    }
+
+    .counter-col {
+    	margin-bottom: 30px;
+    }
+
+    .single-testimonal {
+    	padding: 40px 20px 20px 40px;
+    	box-shadow: none;
+    }
+
+    .testimonal-area .owl-carousel .owl-nav .owl-next,
+    .testimonal-area .owl-carousel .owl-nav .owl-prev {
+    	display: none;
+    }
+
+    .blog-box {
+    	margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .portfolio-nav li{
+        padding: 10px;
+        margin: 0 5px;
+    }
+    .hover-box-content a i {
+        font-size: 15px;
+        margin: 0 0;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+	h2 {
+		font-size: 26px;
+	} 
+
+	.banner-area .page-title-box {
+		padding: 50px 20px;
+	}
+
+	.banner-area .page-title-box h2 {
+		font-size: 28px;
+	}
+
+    .display-n-480 {
+        display: none !important;
+    }
+
+	.flexslider {
+		height: 240px;
+	}
+
+    .header-topbar-col ul.socials-icon li {
+        margin: 0 3px;
+    }
+
+    .portfolio-nav{
+        padding: 20px 0;
+    }
+    .portfolio-content{
+        padding: 40px 0 0 0;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .portfolio-nav li {
+        padding: 10px 10px;
+        margin: 0 0px;
+    }
+    .section-content a.nav-link {
+        display: block;
+        padding: .5rem .7rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+	.flexslider {
+		height: 150px;
+	}
+}
